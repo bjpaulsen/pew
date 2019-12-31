@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-  <style> * {margin: 0; padding: 0;} </style>
-  <script src="../p5.min.js"></script>
-  <script src="../addons/p5.dom.min.js"></script>
-  <script src="../addons/p5.sound.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script src="p5.min.js"></script>
   <script src="sketch.js"></script>
   <script src="ship.js"></script>
   <script src="asteroid.js"></script>
   <script src="shot.js"></script>
-    <style>
+  <style>
     body {
       margin: 0;
       display: flex;
@@ -23,34 +27,38 @@
 
       overflow: hidden;
     }
+
     p {
       position: absolute;
-      font-family:"Courier New";
+      font-family: "Courier New";
       color: white;
       font-size: 70px;
     }
+
     #score {
       left: 10px;
       top: 10px;
     }
+
     #highscore {
       left: 10px;
       top: 100px;
 
       color: red;
     }
+
     #notif {
       top: 10px;
       left: 125px;
       color: grey;
     }
   </style>
- </head>
+</head>
 
- <body>
-   <p id="score"></p>
-   <p id="highscore"></p>
-   <p id="notif"></p>
- </body>
+<body>
+  <p id="score"></p>
+  <p id="highscore"></p>
+  <p id="notif"></p>
+</body>
 
 </html>
